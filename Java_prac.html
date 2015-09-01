@@ -1,0 +1,39 @@
+<html>
+<head> <title> roots
+</title>
+
+</head>
+<body>
+This HTML example shows how to use simple java Script for user input.<br />
+
+<script type="text/javascript">
+var test1= +'2';
+var b= test1*5;
+var c=+test1;
+document.write("test resuslts is ", test1);
+document.write("test resuslts is ", b);
+document.write("test resuslts is ", c);
+
+var myList= new Array(24, "bread",true);
+var myList2= new Array(24);
+var myList3= new Array[24, "bread",true];
+
+
+//get the coeefficents from the user: ax^2bx+c=0
+
+var a= prompt("What is the value of 'a'?", "");
+var b= prompt("What is the value of 'b'?", "");
+var c= prompt("What is the value of 'c'?", "");
+
+//compute the square root and demoninator
+var root_part= Math.sqrt(b*b -4.0*a*c);
+var denom=2.0*a;
+//compute and display results
+var root1= (-b+root_part)/denom;
+var root2= (-b-root_part)/denom;
+document.write("the 1st root is: ", root1,"<br />");
+document.write("the 2nd root is: ", root2,"<br />");
+
+</script>
+</body>
+</html>
